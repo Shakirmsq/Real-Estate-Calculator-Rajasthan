@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,149 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+
+/* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header styles */
+.header {
+  background-color: #124e66;
+  color: #d9d4d3;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+/* Input grid styles */
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  gap: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #006494;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #5dbea3;
+  box-shadow: 0 0 0 2px rgba(93, 190, 163, 0.2);
+}
+
+
+/* Button styles */
+.calculate-button {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.calculate-button:hover {
+  background-color: #333333; /* Darker black on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.calculate-button:active {
+  transform: scale(0.98); /* Slightly shrink button on click */
+}
+
+
+/* Results section styles */
+.results-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.results-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #124e66;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.result-item {
+  margin-bottom: 1rem;
+}
+
+.result-item span:first-child {
+  font-weight: 600;
+  color: #006494;
+}
+
+/* Footer styles */
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #666;
+  font-style: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .input-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .results-section {
+    padding: 1.5rem;
   }
 }
