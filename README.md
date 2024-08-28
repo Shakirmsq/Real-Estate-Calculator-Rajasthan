@@ -1,75 +1,96 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Real Estate Calculator Rajasthan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Real Estate Calculator Rajasthan is a tool designed to help users estimate the number of villas and shops that can be built on a given plot area. It also calculates the selling price of each unit based on various input parameters. This application is useful for real estate developers and investors to evaluate potential projects and make informed decisions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Input Parameters:
+- Plot Area (in square feet)
+- Plot Rate (per square foot)
+- Construction Cost (per square foot)
+- Office Rent
+- Office Extra Costs
+- Office Travel Costs
+- Software Cost
+- Tools Rental
+- Promotion Cost
+- Owner Salary
+- Brokerage Fees
+- Legal and Administrative Costs
+- Contingency Percentage
+- Profit Percentage
 
-### `npm start`
+### Calculations:
+- Initial Cost (land and construction)
+- Office Setup Cost
+- Operational Cost
+- Total Startup Amount
+- Contingency Fund
+- Profit Amount
+- Revenue Needed
+- Number of Villas and Shops
+- Selling Price of Villas and Shops
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Use
+1. **Enter Input Values**: Provide values for all the input parameters in the form fields.
+2. **Calculate**: Click the "Calculate" button to compute the results.
+3. **View Results**: The results section will display the calculated costs, number of units, and selling prices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shakirmsq/Real-Estate-Calculator-Rajasthan.git
+   
+2. Navigate into the project directory:
+bash
+Copy code
+cd Real-Estate-Calculator-Rajasthan
 
-### `npm test`
+3. Install the required dependencies:
+bash
+Copy code
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:
+bash
+Copy code
+npm start
+The application will be available at http://localhost:3000.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! Please follow these steps to contribute:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Open a pull request with a description of your changes.
+   
 
-### `npm run eject`
+##License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright (c) [year] [Full Name]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Real-Estate-Calculator-Rajasthan
-BASIC CALCULATION OF  NO. OF VILLA AND SHOP CAN BUILD ON INPUT SQFT AREA AND AT WHAT RATE VILLA AND SHOP TO BE SOLD.
->>>>>>> origin/main
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
